@@ -25,15 +25,32 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+.map creates a new array that has been provided a function on every element in the array that was called. 
+A use case for .map could be that you would want to extract values from an object array.
+
+.reduce works to simplify an array down a single value.
+This can be used to find the average values in an array filled with numbers.
+
+.filter iterates through the array, returning elements that was specified by the return statement.
+This can be used to filter through an object array, only returning a specified string or value.
 
 2. Explain the difference between a callback and a higher order function.
 
+A higher order function is a function that accepts other functions as a parameter or returns a function.
+
+A callback is when a function is passed through as an argument in another function.
+
 3. Explain what a closure is.
+Closure is when a function reaches outside of its scope to search for a variable being referenced in the outer scope.
 
 4. Describe the four principles of the 'this' keyword.
+Window binding - When in the global scope, javascript will default "this" to reference the window object.
+Implicit binding - Most commonly used, look to the left of the dot, that is what "this" refers to.
+New binding - When using a constructor function, "this" refers to the specific object that is created and returned by the constructor.
+Explicit binding - When using .call or .apply, "this" is explicitly defined.
 
 5. Why do we need super() in an extended class?
-
+.super calls the constructor of the parent class so that it can inherit the parent's properties and methods.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
