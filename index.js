@@ -208,7 +208,7 @@ CuboidMaker.prototype.cuboid = function(cuboidadd){
 // 🦄🦄🦄 Topic 4: Classes 🦄🦄🦄 //
 //🦄🦄🦄 1. Take your prototypes from above and refactor into class syntax. Please rename your class CuboidMakerTwo and your object cuboidTwo 🦄🦄🦄
 class CuboidMakerTwo{
-constructor(attrs){
+constructor(attrs){ 
   this.length = attrs.length;
   this.width = attrs.width;
   this.height = attrs.width;
